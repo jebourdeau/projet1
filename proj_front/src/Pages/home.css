@@ -1,0 +1,20 @@
+.titre{
+    color:rgb(74, 228, 54);
+    text-decoration: underline;
+    font-style: italic;
+}
+.intro{
+    color: azure;
+    font-style: normal;
+    font-size: 20px ;
+    
+}
+img {
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+    border-bottom-style:inset;
+    
+}

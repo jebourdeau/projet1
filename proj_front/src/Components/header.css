@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    background: rgb(53, 51, 51);
+    justify-content: space-between;
+    background: linear-gradient(-182deg, rgb(195, 195, 197), rgb(92, 91, 91) 69%, rgba(116, 53, 124, 0.5) 70%, rgba(0, 0, 0, 0) 72%);
+    transition: all .8s ease-out;
+}
+
+.navbar-item{
+    flex-direction: row;
+}

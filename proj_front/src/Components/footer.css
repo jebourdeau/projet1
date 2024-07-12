@@ -1,0 +1,25 @@
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    background: rgb(78, 75, 75);
+    justify-content: flex-end;
+    background: linear-gradient(-2deg, rgb(185, 181, 181), rgb(75, 71, 71) 69%, rgba(71, 33, 65, 0.5) 70%, rgba(124, 88, 122, 0) 72%);
+    text-align: center;
+    
+}
+.footer-text{
+    margin-top: 30px;
+    margin-right: 70px;
+    display: flex;
+    font-size: 12px;
+
+}
+.logoFooter {
+    margin-right: 40px;
+    margin-top: 100px;
+    width: 13vh;
+    height: 9vh;    
+    border-radius: 10%;
+}

@@ -1,0 +1,65 @@
+/* form{
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+} */
+/* Appliquer une police agréable et un peu de marge à tout le formulaire */
+form {
+    font-family: 'Arial', sans-serif;
+    height: 400px;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: #501f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le label */
+form label {
+    display: block;
+    font-size: 1.1em;
+    color: #c56d1b;
+    margin-bottom: 8px;
+}
+
+/* Style pour les champs de saisie */
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #932ce7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Changer la bordure des champs de saisie au focus */
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #8a1010;
+    outline: none;
+}
+
+/* Style pour le bouton */
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Changer la couleur du bouton au survol */
+form button:hover {
+    background-color: #059925;
+}
